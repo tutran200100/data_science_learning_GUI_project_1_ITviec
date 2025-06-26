@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+wordcloud
+emoji
+underthesea
+langdetect
+deep-translator
+scikit-learn
+nltk
+joblib
+Pillow
+gdown
