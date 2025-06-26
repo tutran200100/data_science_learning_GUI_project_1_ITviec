@@ -14,3 +14,4 @@ joblib
 Pillow
 gdown
 underthesea
+imbalanced-learn
