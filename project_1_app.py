@@ -161,7 +161,19 @@ def preprocess_review_text(df, col_like, col_suggestion):
 # https://drive.google.com/drive/folders/1jdcMmvMunay9dE20l12suYz2n-ZefAro?usp=sharing
 url = "https://drive.google.com/uc?id=1tWOePz-t9x_e8f5Mk1OVxDhsw536_PJx"
 output = "rf_tfidf_pipeline_sentiment.joblib"  # Đổi tên theo nhu cầu
-best_rf_pipeline = joblib.load(output)
+if not os.path.exists(output):
+    gdown.download(url, output, quiet=False)Add commentMore actions
+
+# Kiểm tra dung lượng file
+if os.path.exists(output):
+    size_kb = os.path.getsize(output) / 1024
+    # st.write(f"✅ File tải về: {output} ({size_kb:.2f} KB)")
+    if size_kb < 100:  # Bạn có thể điều chỉnh ngưỡng này
+        st.error("⚠️ File mô hình tải về có vẻ không đúng hoặc bị lỗi.")
+    else:
+        best_rf_pipeline = joblib.load(output)
+else:
+    st.error("❌ File mô hình không tồn tại sau khi tải.")
 
 # ---- Load data cho text clustering ------
 data = pd.read_excel('Reviews.xlsx')
