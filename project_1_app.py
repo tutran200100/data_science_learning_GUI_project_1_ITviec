@@ -477,7 +477,7 @@ elif page == "2. Phân tích & Kết quả":
     """)
 
     # Kết quả cluster - SUGGESTION
-    st.markdown("### **Kết quả cluster 'Suggestions to improve'**")
+    st.markdown("### **Kết quả cluster 'Suggestions for improvement'**")
     col10, col11, col12 = st.columns(3)
     # Hiển thị ảnh trong từng cột
     with col10:
