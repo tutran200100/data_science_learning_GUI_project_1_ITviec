@@ -437,7 +437,7 @@ elif page == "2. Phân tích & Kết quả":
     # 4. Phân tích chủ đề bằng LDA và K Means
     st.subheader("2.4 Phân tích chủ đề")
     st.markdown("- Sử dụng **LDA + KMeans** để phân nhóm theo chủ đề review")
-    st.markdown("- Số lượng chủ đề (LDA) và cụm (KMeans) đều là 3 cho mỗi phần `What I liked` và `Suggestion`")
+    st.markdown("- Số lượng chủ đề (LDA) và cụm (KMeans) đều là 3 cho mỗi phần `What I liked` và `Suggestions for improvement`")
 
     # Hiển thị hình ảnh biểu đồ tam giác
     st.markdown("- Silhoutte Score - What I liked: **0.59**")
