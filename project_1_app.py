@@ -162,7 +162,7 @@ def preprocess_review_text(df, col_like, col_suggestion):
 url = "https://drive.google.com/uc?id=1tWOePz-t9x_e8f5Mk1OVxDhsw536_PJx"
 output = "rf_tfidf_pipeline_sentiment.joblib"  # Đổi tên theo nhu cầu
 if not os.path.exists(output):
-    gdown.download(url, output, quiet=False)Add commentMore actions
+    gdown.download(url, output, quiet=False)
 
 # Kiểm tra dung lượng file
 if os.path.exists(output):
