@@ -5,12 +5,12 @@ matplotlib
 seaborn
 plotly
 wordcloud
-emoji
-underthesea
+emoji==2.10.1
 langdetect
-deep-translator
+deep-translator==1.11.4
 scikit-learn
 nltk
 joblib
 Pillow
 gdown
+underthesea
