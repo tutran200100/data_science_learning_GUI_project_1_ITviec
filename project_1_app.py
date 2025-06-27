@@ -406,7 +406,7 @@ elif page == "2. Phân tích & Kết quả":
 
     #### 5. POS Tag & Từ đặc biệt
     - Gắn nhãn từ loại bằng `underthesea.pos_tag`
-    - Ghép từ đặc biệt: *không, chưa, chả...* → *không_tốt*, *chưa_ổn*
+    - Ghép từ đặc biệt: *không, chẳng, chả, chưa, thiếu, hơi* → *không_tốt*, *chưa_ổn*
 
     #### 6. Lọc từ theo mục tiêu
     - **Sentiment:** giữ từ loại `['A','AB','V','VB','VY','R']`
@@ -448,7 +448,7 @@ elif page == "2. Phân tích & Kết quả":
 
     # 4. Phân tích chủ đề bằng LDA và K Means
     st.subheader("2.4 Phân tích chủ đề")
-    st.markdown("- Sử dụng **LDA** và 3 mô hình `KMeans`,  `Agglomerative Clustering`, `Gaussian Mixture`, và so sánh kết quả")
+    st.markdown("- Sử dụng **LDA** và 3 mô hình **KMeans, Agglomerative Clustering, Gaussian Mixture**, sau đó so sánh kết quả")
     st.markdown("- Kết quả tốt nhất là sử dụng **LDA + KMeans** để phân nhóm theo chủ đề review")
     st.markdown("- Số lượng chủ đề (LDA) và cụm (KMeans) đều là 3 cho mỗi phần `What I liked` và `Suggestions for improvement`")
 
