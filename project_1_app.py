@@ -159,7 +159,7 @@ def preprocess_review_text(df, col_like, col_suggestion):
 # ----- Load model của Sentiment Analysis -----
 # best_rf_pipeline = joblib.load('rf_tfidf_pipeline_sentiment.joblib')
 # https://drive.google.com/drive/folders/1jdcMmvMunay9dE20l12suYz2n-ZefAro?usp=sharing
-url = "https://drive.google.com/uc?id=1tWOePz-t9x_e8f5Mk1OVxDhsw536_PJx"
+url = "https://drive.google.com/uc?id=1D5lui5-gNgJB0VPSbKy0hHw3W7wHLKpS"
 output = "rf_tfidf_pipeline_sentiment.joblib"  # Đổi tên theo nhu cầu
 if not os.path.exists(output):
     gdown.download(url, output, quiet=False)
