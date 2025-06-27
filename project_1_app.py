@@ -617,7 +617,7 @@ elif page == "4. Phân nhóm đánh giá":
                     "Topic 0": "Phúc lợi & Đãi ngộ & Đồng nghiệp",
                     "Topic 1": "Không gian làm việc & Cơ sở vật chất",
                     "Topic 2": "Cơ hội phát triển & Văn hóa công ty",
-                    "Cluster": "Cụm"
+                    "Cluster": "Nhóm đánh giá"
                 }
             )
             st.plotly_chart(fig_like)
@@ -640,7 +640,7 @@ elif page == "4. Phân nhóm đánh giá":
                     "Topic 0": "Cải thiện không gian & cơ sở vật chất",
                     "Topic 1": "Quy trình, chính sách & teamwork",
                     "Topic 2": "Tăng ca, lương, thưởng & đãi ngộ",
-                    "Cluster": "Cụm"
+                    "Cluster": "Nhóm đánh giá"
                 }
             )
             st.plotly_chart(fig_sugg)
