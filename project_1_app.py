@@ -335,7 +335,7 @@ if page == "1. Giới thiệu":
     Các trường chính:
     - `What I liked`: Những điều tích cực người đánh giá cảm nhận.
     - `Suggestions for improvement`: Gợi ý cải thiện dành cho công ty.
-    - `Company Mame`, `id`, `Recommend?`, `Overall Rating`, v.v...
+    - `Company Name`, `id`, `Recommend?`, `Overall Rating`, v.v...
 
     Dữ liệu đã được xử lý tiếng Việt, chuẩn hóa và làm sạch trước khi áp dụng mô hình học máy.
     """)
