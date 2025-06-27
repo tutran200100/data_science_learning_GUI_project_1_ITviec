@@ -438,6 +438,7 @@ elif page == "2. Phân tích & Kết quả":
 
     # 3. Trích xuất đặc trưng và mô hình hóa
     st.subheader("2.3 Mô hình phân tích cảm xúc")
+    st.markdown("- Tiến hành **Resample** để cân bằng dữ liệu biến `label`")
     st.markdown("- Sử dụng mô hình **Random Forest** với đầu vào là TF-IDF vector")
     st.markdown("- Độ chính xác: **97.77%**")
     # Hiển thị hình ảnh kết quả các model
@@ -447,7 +448,8 @@ elif page == "2. Phân tích & Kết quả":
 
     # 4. Phân tích chủ đề bằng LDA và K Means
     st.subheader("2.4 Phân tích chủ đề")
-    st.markdown("- Sử dụng **LDA + KMeans** để phân nhóm theo chủ đề review")
+    st.markdown("- Sử dụng **LDA** và 3 mô hình `KMeans`,  `Agglomerative Clustering`, `Gaussian Mixture`, và so sánh kết quả")
+    st.markdown("- Kết quả tốt nhất là sử dụng **LDA + KMeans** để phân nhóm theo chủ đề review")
     st.markdown("- Số lượng chủ đề (LDA) và cụm (KMeans) đều là 3 cho mỗi phần `What I liked` và `Suggestions for improvement`")
 
     # Hiển thị hình ảnh biểu đồ tam giác
