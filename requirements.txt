@@ -8,7 +8,7 @@ wordcloud
 emoji==2.10.1
 langdetect
 deep-translator==1.11.4
-scikit-learn==1.4.2
+scikit-learn
 nltk
 joblib
 Pillow
