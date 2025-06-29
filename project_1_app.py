@@ -291,7 +291,9 @@ with st.sidebar:
     # Thông tin nhóm
     st.markdown("**Thành viên nhóm:**")
     st.markdown("- Mr. Lê Đức Anh")
+    st.markdown("✉: leducanh300795@gmail.com")
     st.markdown("- Mr. Trần Anh Tú")
+    st.markdown("✉: tutran.tommy@gmail.com")
 
     # Giáo viên hướng dẫn
     st.markdown("**GVHD:**")
